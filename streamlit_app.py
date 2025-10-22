@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title="Quick Author Search", layout="wide")
 
 CSV_PATH = "Dimensions-Publication-2025-10-14_15-57-25.csv"
-AUTHOR_COL = "Author"   # exact column name expected in the CSV
+AUTHOR_COL = "Authors"   # exact column name expected in the CSV
 
 @st.cache_data(show_spinner=False)
 def load_data(path: str) -> pd.DataFrame:
