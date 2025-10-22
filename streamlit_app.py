@@ -25,7 +25,7 @@ def load_data(path: str) -> pd.DataFrame:
 
 df = load_data(CSV_PATH)
 
-st.title("Dimensions: Simple Author & Content Search")
+st.title("Welcome to the Branch Out Science Search")
 
 if df.empty:
     st.stop()
